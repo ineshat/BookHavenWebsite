@@ -91,10 +91,10 @@
         </tr>
     </table>
 </main>
-<div style="margin-top: 20px;">
-    <button type="button" onclick="addToCart()">Add to Cart</button>
-<button type="button" onclick="clearCart()">Clear Cart</button>
-<button type="button" onclick="processOrder()">Process Order</button>
+<div class="cart-buttons">
+    <button type="button" onclick="alert('Item added to the cart.')">Add to Cart</button>
+    <button type="button" onclick="alert('Cart cleared.')">Clear Cart</button>
+    <button type="button" onclick="alert('Thank you for your order.')">Process Order</button>
 </div>
 <footer>
     <p>&copy; 2026 Book Haven Bookstore</p>
@@ -103,18 +103,6 @@
 <script>
 function subscribeAlert() {
     alert("Thank you for subscribing.");
-}
-
-function addToCart() {
-    alert("Item added to the cart.");
-}
-
-function clearCart() {
-    alert("Cart cleared.");
-}
-
-function processOrder() {
-    alert("Thank you for your order.");
 }
 </script>
 </body>
