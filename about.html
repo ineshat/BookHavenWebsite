@@ -28,7 +28,21 @@
     <p>The purpose of Book Haven Bookstore is to support literary exploration and make it easier for customers to find reading materials and bookstore products. The website gives the store an online space where customers can learn more about the business and view featured items.</p>
 
     <h2>Who We Serve</h2>
-    <p>Book Haven Bookstore serves book lovers, students, readers, and people looking for quality reading materials or office essentials. The website is designed to feel welcoming, organized, and easy to use.</p>
+    <p>Book Haven Bookstore serves book lovers, students, readers, and people looking for quality reading materials or office essentials. The website is designed to feel welcoming, organized, and easy to use.</p
+ <h2>Contact Us</h2>
+
+<form>
+    <label>Name:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" required><br><br>
+
+    <label>Message:</label><br>
+    <textarea required></textarea><br><br>
+
+    <button type="button" onclick="submitMessage()">Submit</button>
+</form>                                                                                                                                                                                                       
 </main>
 
 <footer>
@@ -38,6 +52,11 @@
 <script>
 function subscribeAlert() {
     alert("Thank you for subscribing.");
+}
+</script>
+<script>
+function submitMessage() {
+    alert("Thank you for your message.");
 }
 </script>
 </body>
