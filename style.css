@@ -76,7 +76,8 @@ header h1 {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .gallery-item {
@@ -91,22 +92,6 @@ header h1 {
     width: 100%;
     height: auto;
     border-radius: 6px;
-}
-
-.event-card {
-    background-color: #FFF7EE;
-    border-left: 6px solid #EE583F;
-    padding: 15px;
-    margin-bottom: 18px;
-    border-radius: 6px;
-}
-
-footer {
-    background-color: #2E4057;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 25px;
 }
 
 @media screen and (max-width: 700px) {
